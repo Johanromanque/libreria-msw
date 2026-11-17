@@ -1,16 +1,17 @@
-# React + Vite
+# Mi Tienda de Libros - Semana 4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación frontend desarrollada en React utilizando Vite. Implementa navegación por categorías y consumo de datos simulados desde una API.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React (Vite)**
+- **React Router DOM** (Navegación dinámica entre categorías de libros)
+- **MSW (Mock Service Worker)** (Simulación de backend para interceptar peticiones HTTP)
 
-## React Compiler
+## Instalación y uso
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clonar este repositorio o descargar los archivos.
+2. Instalar las dependencias del proyecto:
+   ```bash
+   npm install
+   ```
